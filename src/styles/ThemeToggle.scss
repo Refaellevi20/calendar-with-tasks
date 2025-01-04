@@ -1,0 +1,52 @@
+/* Light Mode Styles */
+.light {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .light .calendar {
+    background-color: #f9f9f9;
+  }
+  
+  .light .day {
+    border: 1px solid #ccc;
+  }
+  
+  .light .task-editor {
+    background-color: #f5f5f5;
+  }
+  
+  /* Dark Mode Styles */
+  .dark {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .dark .calendar {
+    background-color: #1e1e1e;
+  }
+  
+  .dark .day {
+    border: 1px solid #444;
+  }
+  
+  .dark .task-editor {
+    background-color: #333;
+  }
+  
+  /* Common styles for the toggle button */
+  .theme-toggle-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 16px;
+  }
+  
+  .theme-toggle-btn:hover {
+    background-color: #2980b9;
+  }
+  

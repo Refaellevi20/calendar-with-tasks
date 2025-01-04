@@ -1,0 +1,127 @@
+.event-form-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .event-form-container {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-form-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a202c;
+    margin-bottom: 16px;
+  }
+  
+  .event-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .event-form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a5568;
+    margin-bottom: 8px;
+  }
+  
+  .event-form-input,
+  .event-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+    background-color: #f7fafc;
+    font-size: 14px;
+    color: #2d3748;
+  }
+  
+  .event-form-textarea {
+    resize: vertical;
+  }
+  
+  .event-form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  
+  .event-form-cancel-btn,
+  .event-form-add-btn {
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .event-form-cancel-btn {
+    border: 1px solid #e2e8f0;
+    background-color: #f7fafc;
+    color: #1a202c;
+  }
+  
+  .event-form-cancel-btn:hover {
+    background-color: #edf2f7;
+  }
+  
+  .event-form-add-btn {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+  }
+  
+  .event-form-add-btn:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .dark .event-form-container {
+    background-color: #2d3748;
+  }
+  
+  .dark .event-form-title,
+  .dark .event-form-label {
+    color: #edf2f7;
+  }
+  
+  .dark .event-form-input,
+  .dark .event-form-textarea {
+    background-color: #1a202c;
+    color: #edf2f7;
+    border: 1px solid #4a5568;
+  }
+  
+  .dark .event-form-cancel-btn {
+    background-color: #4a5568;
+    color: #edf2f7;
+  }
+  
+  .dark .event-form-cancel-btn:hover {
+    background-color: #2d3748;
+  }
+  
+  .dark .event-form-add-btn {
+    background-color: #2b6cb0;
+  }
+  
+  .dark .event-form-add-btn:hover {
+    background-color: #2b4a6d;
+  }
+  

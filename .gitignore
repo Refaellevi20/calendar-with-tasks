@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# const CLIENT_ID = '810939548397-9jrhfrj5bi99v9raq455lpqn5f21cjum.apps.googleusercontent.com'
+# const API_KEY =  "AIzaSyA5YAKbctMWmj2etXv-KY7MSXDMGaWr0qs"
+# const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
+# const DISCOVERY_DOCS = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest']

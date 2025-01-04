@@ -1,0 +1,54 @@
+.calendar-app {
+    min-height: 100vh;
+  }
+  
+  .calendar-container {
+    padding: 24px;
+  }
+  
+  .calendar-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .calendar-grid-container,
+  .event-list-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark {
+    background-color: #2d3748;
+    color: #edf2f7;
+  
+    .calendar-grid-container,
+    .event-list-container {
+      background-color: #4a5568;
+    }
+  }
+  
+  .light {
+    background-color: #f7fafc;
+    color: #2d3748;
+  
+    .calendar-grid-container,
+    .event-list-container {
+      background-color: #fff;
+    }
+  }
+  
+  .calendar-app .dark .calendar-container {
+    background-color: #1a202c;
+  }
+  
+  .calendar-app .light .calendar-container {
+    background-color: #e2e8f0;
+  }
+  
