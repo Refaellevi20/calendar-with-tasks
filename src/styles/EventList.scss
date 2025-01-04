@@ -1,66 +1,80 @@
 .event-list-container {
     margin-top: 32px;
-  }
-  
-  .event-list-title {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 16px;
-    color: #1a202c;
-  }
-  
-  .event-list-no-events {
-    color: #4a5568;
-  }
-  
-  .event-list-items {
+}
+
+.event-list-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #2d3748;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.event-list-no-events {
+    color: #9b2c2c;
+    font-size: 16px;
+    text-align: center;
+}
+
+.event-list-items {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-  }
-  
-  .event-list-item {
+    gap: 16px;
+}
+
+.event-list-item {
     display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .event-list-item:hover {
-    background-color: #f7fafc;
-  }
-  
-  .event-list-item-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: #1a202c;
-  }
-  
-  .event-list-item-time {
-    font-size: 14px;
+    flex-direction: column;
+    background-color: #edf2f7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.event-list-item:hover {
+    background-color: #e2e8f0;
+    // transform: translateY(-5px);
+}
+
+.event-list-item-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2b6cb0;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.event-list-item-time {
+    font-size: 16px;
     color: #4a5568;
-  }
-  
-  .event-list-item-description {
-    font-size: 14px;
-    color: #718096;
-  }
-  
-  .event-list-item-delete-btn {
+    margin-bottom: 10px;
+}
+
+.event-list-item-description {
+    font-size: 16px;
+    color: #4a5568;
+    line-height: 1.4;
+}
+
+.event-list-item-delete-btn {
     background-color: transparent;
     border: none;
     color: #e53e3e;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
     cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .event-list-item-delete-btn:hover {
+    margin-top: 12px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.event-list-item-delete-btn:hover {
     color: #c53030;
-  }
+    transform: scale(1.025);
+}
+
   
   .dark .event-list-title,
   .dark .event-list-item-title {

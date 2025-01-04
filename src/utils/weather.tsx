@@ -3,10 +3,9 @@ import axios from 'axios'
 
 const Weather: React.FC = () => {
     const [weather, setWeather] = useState<any>(null)
-    // const API_KEY = "dfac2e69dcd691a8f87a7b3fc8ae5f10"
-    // const CITY = 'Israel'
-    const API_KEY = process.env.API_KEY;
-const CITY = process.env.CITY;
+    const API_KEY = "dfac2e69dcd691a8f87a7b3fc8ae5f10"
+    const CITY = 'Israel'
+    
 
     useEffect(() => {
         let isMounted = true
